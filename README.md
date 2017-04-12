@@ -12,3 +12,7 @@ We added a lot of features to Version 2 such as:
 
 ### ULX ###
 ### Evolve ###
+   
+## Explainations: ##
+  
+[Wiki](https://github.com/captain1242/WoltLab-Community-Bridge-Version-2/wiki)
