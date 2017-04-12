@@ -80,4 +80,4 @@ end
 local WL_Bridge_Unban = ulx.command( "WoltLab Bridge", "ulx comunban", WoltLabCBridge.ULX.unban,"!cunban" )
 WL_Bridge_Unban:addParam{ type=ULib.cmds.StringArg, hint="SteamID" }
 WL_Bridge_Unban:defaultAccess( ULib.ACCESS_SUPERADMIN )
-WL_Bridge_Unban:help( "[MBSync] Unbans SteamID." )
+WL_Bridge_Unban:help( "Community Unbans SteamID." )
