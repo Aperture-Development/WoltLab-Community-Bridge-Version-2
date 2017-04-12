@@ -1,4 +1,4 @@
-### WoltLab Community Bridge V2.0 ###
+# WoltLab Community Bridge V2.0 #
 
 This is the WoltLab Community Bridge Version 2.0
 
@@ -10,7 +10,7 @@ We added a lot of features to Version 2 such as:
 
 ## Compatible Admin mods ##
 
-# ULX #
+### ULX ###
 
 Commands:
 
@@ -44,7 +44,7 @@ Arguments:
 	1: SteamID-32
 
 
-# Evolve #
+### Evolve ###
 
 Console Command: "ev wlbmenu"
 In-Game command: "!wlbmenu"
