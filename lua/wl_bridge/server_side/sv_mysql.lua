@@ -67,7 +67,7 @@ function WoltLabCBridge.DefineSQL()
 		local GetProfile = WoltLabCBridge.DB:query([[
 			SELECT ]]..WoltLabCBridge.WoltLabOptions[WoltLabCBridge.Settings.Using].UserIDField..[[
 			FROM ]]..WoltLabCBridge.WoltLabOptions[WoltLabCBridge.Settings.Using].UserTable..[[
-			WHERE ]]..WoltLabCBridge.Settings.steamID64Field..[[=']]..ply:SteamID64()..[['
+			WHERE ]]..WoltLabCBridge.Settings.steamID64Field..[[ LIKE '%]]..ply:SteamID64()..[[%'
 		]])
 		
 		
