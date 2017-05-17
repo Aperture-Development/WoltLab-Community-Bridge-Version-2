@@ -204,10 +204,10 @@ net.Receive( "wlb_OpenMenu", function( len, pl )
 		end
 	end
 	
-	WoltLabBGUI.Username = vgui.Create( "DLabel", WoltLabBGUI.Main )
-	WoltLabBGUI.Username:SetPos( 400, 340 )
-	WoltLabBGUI.Username:SetSize( 100, 25 )
-	WoltLabBGUI.Username:SetText( "Table SteamID Field" )
+	WoltLabBGUI.SteamIDFieldLabel = vgui.Create( "DLabel", WoltLabBGUI.Main )
+	WoltLabBGUI.SteamIDFieldLabel:SetPos( 400, 340 )
+	WoltLabBGUI.SteamIDFieldLabel:SetSize( 100, 25 )
+	WoltLabBGUI.SteamIDFieldLabel:SetText( "Table SteamID Field" )
 	
 	WoltLabBGUI.SteamIDFieldName = vgui.Create( "DTextEntry", WoltLabBGUI.Main ) -- create the form as a child of frame
 	WoltLabBGUI.SteamIDFieldName:SetPos( 400, 360 )
@@ -217,10 +217,10 @@ net.Receive( "wlb_OpenMenu", function( len, pl )
 		WoltLabCBridge.Settings.steamID64Field = self:GetValue()
 	end
 	
-	WoltLabBGUI.Username = vgui.Create( "DLabel", WoltLabBGUI.Main )
-	WoltLabBGUI.Username:SetPos( 400, 300 )
-	WoltLabBGUI.Username:SetSize( 100, 25 )
-	WoltLabBGUI.Username:SetText( "WoltLab Version" )
+	WoltLabBGUI.WoltLabVersionLabel = vgui.Create( "DLabel", WoltLabBGUI.Main )
+	WoltLabBGUI.WoltLabVersionLabel:SetPos( 400, 300 )
+	WoltLabBGUI.WoltLabVersionLabel:SetSize( 100, 25 )
+	WoltLabBGUI.WoltLabVersionLabel:SetText( "WoltLab Version" )
 	
 	WoltLabBGUI.WoltLabVersion = vgui.Create( "DComboBox", WoltLabBGUI.Main )
 	WoltLabBGUI.WoltLabVersion:SetPos( 400, 320 )
