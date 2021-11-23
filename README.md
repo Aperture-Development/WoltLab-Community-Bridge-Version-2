@@ -15,10 +15,8 @@ We added a lot of features to Version 2 such as:
    
 ## Explainations: ##
   
-[Wiki](https://github.com/captain1242/WoltLab-Community-Bridge-Version-2/wiki)  
+[Wiki](https://github.com/ApertureDevelopment/WoltLab-Community-Bridge-Version-2/wiki)  
 
 ## Other ##
 
-This script uses the Attribution-NonCommercial-ShareAlike 4.0 International Licence [Link](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt) You may copy and modify it but you must publish it under the same Licence
-
-For Bug Reports, Feature requests or anything else use our Support system at: [https://Aperture-Hosting.de/ticketsystem](https://Aperture-Hosting.de/ticketsystem)
+This script uses the [GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0.txt)
